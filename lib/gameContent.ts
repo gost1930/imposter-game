@@ -4,56 +4,82 @@ export interface WordPair {
 }
 
 export const WORD_PAIRS: WordPair[] = [
-  // أدوات
-  { word: 'ملعقة', category: 'أدوات' },
-  { word: 'شوكة', category: 'أدوات' },
-  { word: 'سكين', category: 'أدوات' },
-  { word: 'طبق', category: 'أدوات' },
-  { word: 'كأس', category: 'أدوات' },
-  { word: 'صحن', category: 'أدوات' },
-  { word: 'فنجان', category: 'أدوات' },
-  { word: 'قدر', category: 'أدوات' },
-  
-  // فاكهة
-  { word: 'موز', category: 'فاكهة' },
-  { word: 'تفاح', category: 'فاكهة' },
-  { word: 'برتقال', category: 'فاكهة' },
-  { word: 'عنب', category: 'فاكهة' },
-  { word: 'رمان', category: 'فاكهة' },
-  { word: 'إجاص', category: 'فاكهة' },
-  { word: 'شمام', category: 'فاكهة' },
-  { word: 'كيوي', category: 'فاكهة' },
-  
-  // حيوانات
-  { word: 'أسد', category: 'حيوانات' },
-  { word: 'قط', category: 'حيوانات' },
-  { word: 'كلب', category: 'حيوانات' },
-  { word: 'فيل', category: 'حيوانات' },
-  { word: 'حمار', category: 'حيوانات' },
-  { word: 'ديك', category: 'حيوانات' },
-  { word: 'ثعلب', category: 'حيوانات' },
-  { word: 'ببغاء', category: 'حيوانات' },
-  
-  // رمضان
-  { word: 'فانوس', category: 'رمضان' },
-  { word: 'تمر', category: 'رمضان' },
-  { word: 'حلويات', category: 'رمضان' },
-  { word: 'سحور', category: 'رمضان' },
-  { word: 'إفطار', category: 'رمضان' },
-  { word: 'قرآن', category: 'رمضان' },
-  { word: 'دعاء', category: 'رمضان' },
-  
-  // أشياء يومية
-  { word: 'هاتف', category: 'يومي' },
-  { word: 'كرسي', category: 'يومي' },
-  { word: 'باب', category: 'يومي' },
-  { word: 'نافذة', category: 'يومي' },
-  { word: 'مرآة', category: 'يومي' },
-  { word: 'سرير', category: 'يومي' },
-  { word: 'مصباح', category: 'يومي' },
-  { word: 'سجادة', category: 'يومي' },
-];
+  // كوزينة (Kitchen)
+  { word: 'فرشيطة', category: 'كوزينة' },
+  { word: 'مغرف', category: 'كوزينة' },
+  { word: 'خدمي', category: 'كوزينة' },
+  { word: 'طبيسي', category: 'كوزينة' },
+  { word: 'كاس', category: 'كوزينة' },
+  { word: 'طنيجرة', category: 'كوزينة' },
+  { word: 'مقلاة', category: 'كوزينة' },
+  { word: 'براد', category: 'كوزينة' },
+  { word: 'بيدون', category: 'كوزينة' },
+  { word: 'غرفية', category: 'كوزينة' },
+  { word: 'كسكاس', category: 'كوزينة' },
+  { word: 'بوطاجي', category: 'كوزينة' },
 
+  // قش ودوزان (Clothes & Personal items)
+  { word: 'تقاشير', category: 'قش' },
+  { word: 'صباط', category: 'قش' },
+  { word: 'تريكو', category: 'قش' },
+  { word: 'سروال', category: 'قش' },
+  { word: 'خمار', category: 'قش' },
+  { word: 'ساشي', category: 'قش' },
+  { word: 'بليغة', category: 'قش' },
+  { word: 'كاشكول', category: 'قش' },
+  { word: 'فيستة', category: 'قش' },
+  { word: 'مظلة', category: 'قش' },
+  { word: 'صاك', category: 'قش' },
+  { word: 'ساعة', category: 'قش' },
+
+  // دوزان الدار (Home items)
+  { word: 'طابلة', category: 'الدار' },
+  { word: 'فوتاي', category: 'الدار' },
+  { word: 'تلفزيون', category: 'الدار' },
+  { word: 'مخدة', category: 'الدار' },
+  { word: 'زرابية', category: 'الدار' },
+  { word: 'ريدو', category: 'الدار' },
+  { word: 'تاقة', category: 'الدار' },
+  { word: 'بايو', category: 'الدار' },
+  { word: 'قجير', category: 'الدار' },
+  { word: 'تريسينتي', category: 'الدار' },
+  { word: 'شومبرة', category: 'الدار' },
+  { word: 'كولوار', category: 'الدار' },
+
+  // ماكلة (Food & Fruits)
+  { word: 'مطلوع', category: 'ماكلة' },
+  { word: 'شربة', category: 'ماكلة' },
+  { word: 'قرنون', category: 'ماكلة' },
+  { word: 'دلاع', category: 'ماكلة' },
+  { word: 'هندية', category: 'ماكلة' },
+  { word: 'كرموس', category: 'ماكلة' },
+  { word: 'تشينة', category: 'ماكلة' },
+  { word: 'بيطراف', category: 'ماكلة' },
+  { word: 'زرودية', category: 'ماكلة' },
+  { word: 'لوبيا', category: 'ماكلة' },
+  { word: 'شليطة', category: 'ماكلة' },
+  { word: 'فريت', category: 'ماكلة' },
+
+  // صوالح برا (Outside items)
+  { word: 'طوموبيل', category: 'برا' },
+  { word: 'كاميو', category: 'برا' },
+  { word: 'بيسيكلات', category: 'برا' },
+  { word: 'حانووت', category: 'برا' },
+  { word: 'مدرية', category: 'برا' },
+  { word: 'قنطرة', category: 'برا' },
+  { word: 'جردينة', category: 'برا' },
+  { word: 'بحر', category: 'برا' },
+  { word: 'مارشي', category: 'برا' },
+  { word: 'طروطوار', category: 'برا' },
+
+  // تكنولوجيا وخدمة
+  { word: 'بيسي', category: 'تكنولوجيا' },
+  { word: 'شارجور', category: 'تكنولوجيا' },
+  { word: 'كيت', category: 'تكنولوجيا' },
+  { word: 'كلافيي', category: 'تكنولوجيا' },
+  { word: 'لاكام', category: 'تكنولوجيا' },
+  { word: 'مانيت', category: 'تكنولوجيا' },
+];
 // export const PUNISHMENTS = [
 //   'اغسل قدم أحد الموجودين',
 //   'قول نكتة مضحكة بصوت عالي',
