@@ -21,12 +21,11 @@ export default function Home() {
       return <GameplayRound />;
     case 'VOTING':
       return <VotingPhase />;
+    case 'IMPOSTER_GUESS':
+    case 'imposter_guess': 
     case 'PUNISHMENT':
-      return <EndGameScreen />;
     case 'END_GAME':
       return <EndGameScreen />;
-    case 'SETUP':
-      return <SetupScreen />;
     default:
       return <SetupScreen />;
   }

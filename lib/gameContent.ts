@@ -7,12 +7,12 @@ export const WORD_PAIRS: WordPair[] = [
   // كوزينة (Kitchen)
   { word: 'فرشيطة', category: 'كوزينة' },
   { word: 'مغرف', category: 'كوزينة' },
-  { word: 'خدمي', category: 'كوزينة' },
+  { word: 'موس', category: 'كوزينة' },
   { word: 'طبيسي', category: 'كوزينة' },
   { word: 'كاس', category: 'كوزينة' },
   { word: 'طنيجرة', category: 'كوزينة' },
-  { word: 'مقلاة', category: 'كوزينة' },
-  { word: 'براد', category: 'كوزينة' },
+  { word: 'مقلة', category: 'كوزينة' },
+  { word: 'بقراج', category: 'كوزينة' },
   { word: 'بيدون', category: 'كوزينة' },
   { word: 'غرفية', category: 'كوزينة' },
   { word: 'كسكاس', category: 'كوزينة' },
@@ -26,7 +26,7 @@ export const WORD_PAIRS: WordPair[] = [
   { word: 'خمار', category: 'قش' },
   { word: 'ساشي', category: 'قش' },
   { word: 'بليغة', category: 'قش' },
-  { word: 'كاشكول', category: 'قش' },
+  { word: 'كاشني', category: 'قش' },
   { word: 'فيستة', category: 'قش' },
   { word: 'مظلة', category: 'قش' },
   { word: 'صاك', category: 'قش' },
@@ -78,7 +78,66 @@ export const WORD_PAIRS: WordPair[] = [
   { word: 'كيت', category: 'تكنولوجيا' },
   { word: 'كلافيي', category: 'تكنولوجيا' },
   { word: 'لاكام', category: 'تكنولوجيا' },
-  { word: 'مانيت', category: 'تكنولوجيا' },
+  { word: 'مانيطا', category: 'تكنولوجيا' },
+
+  // طوموبيلات (السيارات الأكثر شعبية في الجزائر)
+  { word: 'كليو فايس', category: 'طوموبيلات' },
+  { word: 'سامبول', category: 'طوموبيلات' },
+  { word: 'داسيا لوغان', category: 'طوموبيلات' },
+  { word: 'بيكانتو', category: 'طوموبيلات' },
+  { word: '207', category: 'طوموبيلات' },
+  { word: 'إيبيزا', category: 'طوموبيلات' },
+  { word: 'ماروتي', category: 'طوموبيلات' },
+  { word: 'هيليكس', category: 'طوموبيلات' },
+
+  // قاطو وحلويات (اللي كامل نعرفوهم)
+  { word: 'مقروط اللوز', category: 'حلويات' },
+  { word: 'قلب اللوز', category: 'حلويات' },
+  { word: 'بقلاوة', category: 'حلويات' },
+  { word: 'غريبية', category: 'حلويات' },
+  { word: 'طمينة', category: 'حلويات' },
+  { word: 'تشاراك', category: 'حلويات' },
+  { word: 'صابلي', category: 'حلويات' },
+  { word: 'زلابية', category: 'حلويات' },
+
+  // بالون (الفرق واللاعبين الأكثر جدلاً)
+  { word: 'رياض محرز', category: 'بالون' },
+  { word: 'يوسف بلايلي', category: 'بالون' },
+  { word: 'بغداد بونجاح', category: 'بالون' },
+  { word: 'فوزي شاوشي', category: 'بالون' },
+
+  // رسوم متحركة (جيل الطيبين والجيل الجديد)
+  { word: 'دراغون بول', category: 'رسوم' },
+  { word: 'المحقق كونان', category: 'رسوم' },
+  { word: 'كابتن ماجد', category: 'رسوم' },
+  { word: 'بوكيمون', category: 'رسوم' },
+  { word: 'سبونج بوب', category: 'رسوم' },
+  { word: 'توم وجيري', category: 'رسوم' },
+
+  // مسلسلات وسيتكوم جزائري
+  { word: 'الجمعي فاميلي', category: 'تلفزيون' },
+  { word: 'ناس ملاح سيتي', category: 'تلفزيون' },
+  { word: 'عمارة الحاج لخضر', category: 'تلفزيون' },
+  { word: 'الدامة', category: 'تلفزيون' },
+  { word: 'عاشور العاشر', category: 'تلفزيون' },
+  { word: 'بلا حدود', category: 'تلفزيون' },
+
+  // خدمة ومهن (بمصطلحاتنا)
+  { word: 'ماصون', category: 'خدمة' },
+  { word: 'ميكانيسيان', category: 'خدمة' },
+  { word: 'كهربائي', category: 'خدمة' }, // كهربائي
+  { word: 'بلومبي', category: 'خدمة' },   // سباك
+  { word: 'شيفور طاكسي', category: 'خدمة' },
+  { word: 'عسكري', category: 'خدمة' }, // عسكري
+  { word: 'بيزنيسمان', category: 'خدمة' },
+
+  // ماركات دوزان (الكترونيك)
+  { word: 'كندور', category: 'ماركات' },
+  { word: 'ستريم', category: 'ماركات' },
+  { word: 'إريس', category: 'ماركات' },
+  { word: 'OMO', category: 'ماركات' },
+  { word: 'Brand', category: 'ماركات' },
+  
 ];
 // export const PUNISHMENTS = [
 //   'اغسل قدم أحد الموجودين',
